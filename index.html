@@ -2,30 +2,32 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=1000, initial-scale=0.45">
 <title>eForm-C Pass</title>
+
 <style>
     body {
-        font-family: Arial, sans-serif;
-        background: #f7f3ef;
         margin: 0;
-        padding: 15px;
+        padding: 0;
+        background: #f7f3ef;
+        display: flex;
+        justify-content: center;
     }
 
-    .container {
-        max-width: 900px;
-        margin: auto;
+    /* FIXED WIDTH PAGE – ALWAYS SAME ON DESKTOP AND MOBILE */
+    .page {
+        width: 1000px;
         background: white;
         padding: 20px;
         border: 2px solid #b9795c;
-        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
     }
 
     h2, h3 {
         text-align: center;
         margin: 0;
         padding: 5px 0;
-        color: #333;
     }
 
     .section-title {
@@ -35,37 +37,25 @@
         padding: 8px;
         margin: 15px 0;
         font-weight: bold;
+        font-size: 16px;
     }
 
     table {
         width: 100%;
         border-collapse: collapse;
         margin-bottom: 15px;
+        font-size: 15px;
     }
 
     th, td {
         border: 1px solid #b9795c;
         padding: 8px;
-        font-size: 14px;
+        text-align: left;
     }
 
     th {
         background: #f2e6df;
-        width: 40%;
-        text-align: left;
-    }
-
-    @media (max-width: 600px) {
-        th, td {
-            display: block;
-            width: 100%;
-        }
-        th {
-            background: #f8d9c3;
-        }
-        td {
-            border-top: none;
-        }
+        width: 35%;
     }
 
     .footer {
@@ -73,12 +63,14 @@
         font-weight: bold;
         color: red;
         margin-top: 15px;
+        font-size: 16px;
     }
 </style>
 </head>
+
 <body>
 
-<div class="container">
+<div class="page">
 
     <h2>Directorate Of Geology & Mining Uttar Pradesh</h2>
     <h3>The Uttar Pradesh Minerals (Prevention of Illegal Mining, Transportation and Storage) Rules, 2018</h3>
@@ -92,13 +84,13 @@
         <tr><th>3. Name of Licensee:</th><td>SHRI SAI GRANITE PARTINAR ARTI SAHU</td></tr>
         <tr><th>4. Mobile Number Of Licensee:</th><td>8840877379</td></tr>
         <tr><th>5. Destination District:</th><td>LUCKNOW</td></tr>
-        <tr><th>6. License Details [Address, Village, Area]:</th><td>VIVEK NAGAR KABRAI DISTRICT MAHOBA, GAUHARI, 499, 7.476</td></tr>
+        <tr><th>6. License Details:</th><td>VIVEK NAGAR KABRAI DISTRICT MAHOBA, GAUHARI, 499, 7.476</td></tr>
         <tr><th>7. Tehsil Of License:</th><td>MAHOBA</td></tr>
         <tr><th>8. District Of License:</th><td>MAHOBA</td></tr>
         <tr><th>9. Quantity Transported:</th><td>22 M3</td></tr>
         <tr><th>10. Name Of Mineral:</th><td>GRANITE AND DOLOSTONE BALLAST (GITTI)</td></tr>
         <tr><th>11. Loading From:</th><td>MAHOBA</td></tr>
-        <tr><th>12. Destination (Delivery Address):</th><td>LUCKNOW</td></tr>
+        <tr><th>12. Destination:</th><td>LUCKNOW</td></tr>
         <tr><th>13. Distance (Approx):</th><td>261 K.M.</td></tr>
         <tr><th>14. Traveling Duration:</th><td>17 Hr (Approx)</td></tr>
         <tr><th>15. eForm-C Generated On:</th><td>10-11-2025 04:06:27 PM</td></tr>
@@ -112,8 +104,8 @@
     <table>
         <tr><th>1. Registration Number:</th><td>UP91T6243</td></tr>
         <tr><th>2. Name Of Driver:</th><td>YASIR</td></tr>
-        <tr><th>3. Gross Vehicle Weight in Tonne:</th><td>0</td></tr>
-        <tr><th>4. Carrying Capacity of vehicle in Tonne:</th><td>0</td></tr>
+        <tr><th>3. Gross Vehicle Weight:</th><td>0</td></tr>
+        <tr><th>4. Carrying Capacity:</th><td>0</td></tr>
         <tr><th>5. Mobile Number Of Driver:</th><td>8853611328</td></tr>
     </table>
 
